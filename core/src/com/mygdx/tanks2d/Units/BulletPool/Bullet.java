@@ -4,10 +4,11 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Pool;
+import com.mygdx.tanks2d.ClientNetWork.Heading_type;
 
 public class Bullet implements Pool.Poolable {
     // fields for bullets position and direction
-    private final static int BULLET_SPEED = 400;
+    private final static int BULLET_SPEED = Heading_type.SPEED_BULLET;
 
 
     public Vector2 position = new Vector2(0, 0);

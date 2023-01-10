@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BT_BEST.iml" filepath="$PROJECT_DIR$/.idea/modules/BT_BEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/android/BT_BEST.android.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/BT_BEST.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/BT_BEST.desktop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.iml" filepath="$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.main.iml" filepath="$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.test.iml" filepath="$PROJECT_DIR$/.idea/modules/html/BT_BEST.html.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/BT_BEST.ios.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.iml" filepath="$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.main.iml" filepath="$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.test.iml" filepath="$PROJECT_DIR$/.idea/modules/serverTank/BT_BEST.serverTank.test.iml" />
+    </modules>
+  </component>
+</project>

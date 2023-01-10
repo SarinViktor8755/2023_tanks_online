@@ -75,10 +75,15 @@ public class MainGame {
         startSecondaryThread_50();
         startSecondaryThread_25();
         startSecondaryThread_600();
-        //    pause_game = false;
+
         indexMath = new IndexMath();
 
 
+    }
+
+
+    public void restart_bullet(){
+        bullets = new IndexBullets(gameServer);
     }
 
 

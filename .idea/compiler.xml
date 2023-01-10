@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="BT_BEST.android" target="11" />
+      <module name="BT_BEST.desktop" target="1.8" />
+      <module name="BT_BEST.desktop.main" target="1.8" />
+      <module name="BT_BEST.desktop.test" target="1.8" />
+      <module name="BT_BEST.serverTank" target="1.8" />
+      <module name="BT_BEST.serverTank.main" target="1.8" />
+      <module name="BT_BEST.serverTank.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

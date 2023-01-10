@@ -18,7 +18,7 @@ public class IndexBullets {
 
 
     private long previousStepTime = 0;
-    private static int BULLET_SPEED = 400;
+    private static int BULLET_SPEED = Heading_type.SPEED_BULLET;
 
 
     public IndexBullets(GameServer gameServer) {
@@ -26,7 +26,7 @@ public class IndexBullets {
     }
 
     public void addBullet(Vector2 pos, Vector2 vel, int nom, int nomAuthor) { // координаты, навправление, номер снаряда
-        vel.clamp(BULLET_SPEED, BULLET_SPEED);
+        vel.clamp(Heading_type.SPEED_BULLET, Heading_type.SPEED_BULLET);
         // получи пулю из нашего бассейна
         Bullet b = bp.obtain();
         /// стреляйте пулей с того места, на которое мы нажимаем, в направлении прямо вверх
@@ -53,6 +53,10 @@ public class IndexBullets {
     }
 
     public void updateBulets(float dt) {
+        if(gameServer.getMainGame().getIndexMath().isPause()){
+            activeBullets.clear();
+        }
+
         Bullet bullet;
 
         for (int i = 0; i < activeBullets.size; i++) {

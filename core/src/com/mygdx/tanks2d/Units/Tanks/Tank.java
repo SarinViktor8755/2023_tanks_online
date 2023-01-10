@@ -1,5 +1,7 @@
 package com.mygdx.tanks2d.Units.Tanks;
 
+import static com.mygdx.tanks2d.ClientNetWork.Heading_type.SPEED_MOVE_TANKS;
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -40,7 +42,7 @@ public class Tank {
     Vector2 deltaSledVec;
     static Integer my_Command = generateCommand(); // по умолчанию 1 красня команда временно
 
-    final float SPEED = 120f;
+    final float SPEED = SPEED_MOVE_TANKS;
     final float SPEED_ROTATION = 180f;
 
     private TowerRotation tr;

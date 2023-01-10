@@ -32,6 +32,8 @@ public class IndexMath {
     private static int WINNING_NUMBER_OF_POINTS = 1;
     private boolean pause = false; // протсо флаг для проверки из другова класса - что пора вызвать паузу
 
+
+
     public void updateMath(float dt, ListPlayers listPlayers, boolean pause_game) {
         if (!pause_game) this.realTimeMath += dt;
         this.listPlayers = listPlayers;
@@ -164,7 +166,7 @@ public class IndexMath {
         SCORE_RESPOWN = DEFOULT_SCORE_RESPOWN;
     }
 
-    public void respon_math(int comand) {
+    public void respon_math(int comand) { // если какая то команда победила
         SCORE_RESPOWN--;
         // System.out.println(SCORE_RESPOWN);
         if (SCORE_RESPOWN > 0) return;
@@ -176,6 +178,7 @@ public class IndexMath {
         if ((blue_team_score_math >= WINNING_NUMBER_OF_POINTS) || (red_team_score_math >= WINNING_NUMBER_OF_POINTS)) {
             send_pause_game();
         }
+
 
 
         /////////////

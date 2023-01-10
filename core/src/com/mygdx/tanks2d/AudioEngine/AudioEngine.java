@@ -193,6 +193,7 @@ public class AudioEngine {
 
         if (idTrack == null) {
             idTrack = track.play();
+            sound.setVolume(idTrack,.4f);
             sound.setLooping(idTrack, true);
         } else sound.resume(idTrack);
 

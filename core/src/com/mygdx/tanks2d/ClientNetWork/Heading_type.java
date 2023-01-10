@@ -50,6 +50,9 @@ public class Heading_type {
     public static final int CHANGE_THE_SCREEN = 49;
 
 
+    public static final int SPEED_BULLET = 400;
+    public static final int SPEED_MOVE_TANKS = 120;
+
     static public String getDomenTip(int tip) {
         domen.put(1, "MY_TOKKEN");
 

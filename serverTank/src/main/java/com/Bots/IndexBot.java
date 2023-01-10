@@ -22,7 +22,7 @@ public class IndexBot extends Thread {
     public static GameServer gs;
     ConcurrentHashMap<Integer, DBBot> dbBots;
 
-    final static float SPEED = 120f;
+    final static float SPEED = Heading_type.SPEED_MOVE_TANKS;
     final static float SPEED_ROTATION = 180f;
     final static float SPEED_BULLET = 700;
 
