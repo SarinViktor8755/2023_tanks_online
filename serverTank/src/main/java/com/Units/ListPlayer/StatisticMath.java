@@ -14,6 +14,9 @@ public class StatisticMath {   // класс дял подчета количе�
     private static int sttistic[] = new int[6];
     private static HashMap<String,PlayerStatic> table = new HashMap();
 
+    public static PlayerStatistics playerStatistics = new PlayerStatistics();
+
+
 
 
 //    private int size_live_player;
@@ -49,6 +52,12 @@ public class StatisticMath {   // класс дял подчета количе�
     public synchronized StatisticMath counting_p() { // посчитать статичтику
         if (!key_recalculate_statistics) return this;
         //System.out.println("counting_p  " + lp.getSize());
+
+
+        System.out.println(playerStatistics.getStatistigString());
+
+
+
         if (!access_key) return null;
         access_key = false;
         int size_live_player = 0; // rоличество живых играков
