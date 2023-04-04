@@ -1,5 +1,7 @@
 package main.java.com.Units.Bullet;
 
+import static main.java.com.Units.ListPlayer.StatisticMath.playerStatistics;
+
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
@@ -99,6 +101,11 @@ public class IndexBullets {
                         IndexMath.add_score_team(player.getCommand());
                         gameServer.send_add_frag(bullet.getAuthor_bullet());
                         /// отправить сообщение
+                        ///////TEST
+                        playerStatistics.addDeath(player.getId());
+                        playerStatistics.addFrag(bullet.getAuthor_bullet());
+                        playerStatistics.set_nikname(player.getId(),player.getNikName());
+                        ///////
 
                     }
 
