@@ -11,6 +11,8 @@ public class AndroidLauncher extends AndroidApplication {
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+		config.useWakelock = true;
+		cfg.useWakelock = true;
 		initialize(new MainGame(1), config);
 	}
 }
